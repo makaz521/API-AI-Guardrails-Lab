@@ -1,0 +1,13 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      JWT_SECRET: "LOCAL-DEMO-ONLY-CHANGE-THIS"
+      DATABASE_URL: "sqlite:////data/sil_lab.db"
+      LOG_LEVEL: "INFO"
+    volumes:
+      - sil_data:/data
+volumes:
+  sil_data:

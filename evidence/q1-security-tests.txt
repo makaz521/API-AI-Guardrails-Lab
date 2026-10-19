@@ -1,0 +1,12 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.15, pytest-9.1.1, pluggy-1.7.0 -- C:\Users\JOSPHAT MWENDWA\Downloads\SIL_Q1_API_AI_Guardrails_Lab (1)\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\JOSPHAT MWENDWA\Downloads\SIL_Q1_API_AI_Guardrails_Lab (1)
+plugins: anyio-4.15.1
+collecting ... collected 3 items
+
+tests/test_security.py::test_prompt_injection_blocked PASSED             [ 33%]
+tests/test_security.py::test_potential_phi_blocked PASSED                [ 66%]
+tests/test_security.py::test_email_redacted PASSED                       [100%]
+
+============================== 3 passed in 0.10s ==============================
